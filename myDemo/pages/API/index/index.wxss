@@ -1,0 +1,24 @@
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+.head{
+    padding: 80rpx;
+    line-height: 1;
+}
+.body{
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    overflow: hidden;
+}
+.title{
+    font-size: 52rpx;
+}
+.desc{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+}

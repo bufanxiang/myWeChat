@@ -1,0 +1,17 @@
+Page({
+    onLoad:function(){
+        console.log('APIindex页面加载')
+    },
+    onReady:function(){
+        console.log('APIindex页面初次渲染完成')
+    },
+    onShow:function(){
+        console.log('APIindex页面显示')
+    },
+    onHide:function(){
+        console.log('APIindex页面隐藏')
+    },
+    onUnload:function(){
+        console.log('APIindex页面卸载')
+    }
+})
