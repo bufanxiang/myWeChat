@@ -1,0 +1,7 @@
+<!--pages/component/progress/progress.wxml-->
+<view class="section_gap">
+  <progress percent="20" show-info="true"/>
+  <progress percent="40" active="true"/>
+  <progress percent="60" stroke-width="10"/>
+  <progress percent="80" color="#10AEFF"/>
+</view>

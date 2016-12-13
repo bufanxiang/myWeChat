@@ -18,7 +18,7 @@
             </view>
             <view class="widgets__list {{item.open ? 'widgets__list_show' : ''}}">
               <block wx:for-items="{{item.pages}}" wx:for-item="page">
-                <navigator url="component-pages/{{page}}/{{page}}" class="widget">
+                <navigator url="../../component/{{page}}/{{page}}" class="widget">
                   <text>
                     {{page}}
                   </text>

@@ -1,0 +1,16 @@
+<!--pages/component/icon/icon.wxml-->
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"></icon>
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="45"></icon>
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="45" color="{{item}}"></icon>
+  </block>
+</view>

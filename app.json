@@ -1,13 +1,21 @@
 {
   "pages":[
     "pages/component/index/index",
+    "pages/component/view/view",
+    "pages/component/scroll-view/scroll-view",
+    "pages/component/swiper/swiper",
+     "pages/component/icon/icon",
+    "pages/component/text/text",
+    "pages/component/progress/progress",
     "pages/API/index/index"
   ],
   "window":{
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "演示",
     "navigationBarBackgroundColor": "#fbf9fe",
-    "backgroundColor": "#fbf9fe"
+    "backgroundColor": "#E4E4E4",
+    "backgroundTextStyle":"dark", 
+    "enablePullDownRefresh": true
   },
   "tabBar":{
     "color":"#dddddd",

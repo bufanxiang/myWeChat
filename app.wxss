@@ -2,3 +2,62 @@ page {
   background-color: #fbf9fe;
   height: 100%;
 }
+.green{
+    color: #09BB07;
+}
+.red{
+    color: #F76260;
+}
+.blue{
+    color: #10AEFF;
+}
+.yellow{
+    color: #FFBE00;
+}
+.gray{
+    color: #C9C9C9;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.bc_green{
+    background-color: #09BB07;
+}
+.bc_red{
+    background-color: #F76260;
+}
+.bc_blue{
+    background-color: #10AEFF;
+}
+.bc_yellow{
+    background-color: #FFBE00;
+}
+.bc_gray{
+    background-color: #C9C9C9;
+}
+
+.btn-area{
+    padding: 0 30px;
+}
+.btn-area button{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.section{
+    margin-bottom: 80rpx;
+}
+.section_gap{
+    padding: 0 30rpx;
+}
+.section_title{
+    margin-bottom: 16rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+.section_gap .section_title{
+    padding-left: 0;
+    padding-right: 0;
+}

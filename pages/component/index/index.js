@@ -1,4 +1,20 @@
 Page({
+    data:{
+      list:[
+        {
+          id: 'view',
+          name: '视图容器',
+          open: false,
+          pages: ['view', 'scroll-view', 'swiper']
+        },
+        {
+            id: 'content',
+            name: '基础内容',
+            open: false,
+            pages: ['icon', 'text', 'progress']
+        }
+      ]
+    },
     onLoad:function(){
         console.log('index页面加载')
     },
@@ -14,21 +30,16 @@ Page({
     onUnload:function(){
         console.log('index页面卸载')
     },
-    data:{
-      list:[
-        {
-          id: 'view',
-          name: '视图容器',
-          open: false,
-          pages: ['view', 'scroll-view', 'swiper']
-        },
-        {
-            id: 'content',
-            name: '基础内容',
-            open: false,
-            pages: ['text', 'icon', 'progress']
-        }
-      ]
+    onPullDownRefresh:function(){
+      console.log('index下拉刷新');
+      wx.stopPullDownRefresh();
+      this.stopPullDownRefresh();
+    },
+    stopPullDownRefresh:function(){
+      console.log('index停止下拉刷新')
+    },
+    onReachBottom:function(){
+      console.log('index页面被上拉了')
     },
     widgetsToggle:function(e){
       var id = e.currentTarget.id;

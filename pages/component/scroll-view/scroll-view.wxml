@@ -1,0 +1,23 @@
+<!--pages/component/scroll-view/scroll-view.wxml-->
+<view class="section">
+  <view class="section_title">vertical scroll</view>
+  <scroll-view scroll-y="true" style="height:200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red"  class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+  </scroll-view>
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">点击我滚动颜色</button>
+    <button size="mini" bindtap="tapMove">点击我滚动</button>
+  </view>
+</view>
+<view class="section section_tap">
+  <view class="section_title">horizontal scroll</view>
+  <scroll-view class="scroll-view_H" scroll-x="true" style="width:100%;"> 
+    <view id="green" class="scroll-view-item_H bc_green"></view>
+    <view id="red"  class="scroll-view-item_H bc_red"></view>
+    <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+    <view id="blue" class="scroll-view-item_H bc_blue"></view>
+  </scroll-view>
+</view>
