@@ -12,6 +12,12 @@ Page({
             name: '基础内容',
             open: false,
             pages: ['icon', 'text', 'progress']
+        },
+        {
+        	id: 'form',
+        	name: '表单组件',
+        	open: false,
+        	pages: ['button', 'checbox', 'form', 'input', 'label', 'picker', 'radio', 'slide', 'switch', 'textarea']
         }
       ]
     },

@@ -4,9 +4,10 @@
     "pages/component/view/view",
     "pages/component/scroll-view/scroll-view",
     "pages/component/swiper/swiper",
-     "pages/component/icon/icon",
+    "pages/component/icon/icon",
     "pages/component/text/text",
     "pages/component/progress/progress",
+    "pages/component/button/button",
     "pages/API/index/index"
   ],
   "window":{
